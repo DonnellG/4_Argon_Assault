@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4000011839006638}
   - component: {fileID: 33000010277092100}
   - component: {fileID: 23000011446701042}
+  - component: {fileID: 1130907902}
   m_Layer: 0
   m_Name: Example_2
   m_TagString: Untagged
@@ -79,3 +80,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1130907902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014290615944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7a3e945385ee043abbe8de1abebe9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xspeed: 15
+  xPosRange: 5
+  yspeed: 15
+  yPosMin: 3
+  yPosMax: 3
+  xPitchMax: -5
+  controlPitchFactor: -30
+  yYawMax: 5
+  zRollControlFactorMax: -30
