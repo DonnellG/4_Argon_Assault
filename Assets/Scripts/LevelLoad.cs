@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoad : MonoBehaviour
 {
-    [SerializeField] float levelLoadDely = 2f;
-
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
