@@ -303,7 +303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &307172819
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +355,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &322865239
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +719,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &885618737
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &944689043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,15 +1104,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -107.32
+      value: -126.3
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1541.49
+      value: 1541.9
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1450.85
+      value: 1459.7
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1647,7 +1651,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1001 &1893824165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1665,11 +1670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1559.81
+      value: 1546.8
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1289.68
+      value: 1290.3
       objectReference: {fileID: 0}
     - target: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1824,7 +1829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &1970191162 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1469320689751860, guid: a19af03b7c64771489f010af565cc649,
@@ -1845,7 +1851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 500
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &1989329295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1866,7 +1873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 10
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &2013231424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,7 +2030,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 5566158222172513450, guid: 4b8299ec54edf6c45b4ef359509e96d3, type: 3}
   parent: {fileID: 944689044}
-  scorePerHit: 500
+  scorePerHit: 100
+  maxHits: 6
 --- !u!1 &2115737396
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,6 +2370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943036794730887706, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+        type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3252282717979687473, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
         type: 3}
