@@ -964,6 +964,12 @@ Transform:
   m_Father: {fileID: 669317016}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1024354902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6105667006255176819, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1344635295240035308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1027105873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,6 +1306,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2696655387230068059, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bf374732b0ea2c34daa340dc2de7f746, type: 3}
+--- !u!1 &1569057367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3252282717979687473, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1344635295240035308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1618276917
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,10 +2342,35 @@ PrefabInstance:
       propertyPath: deathFX
       value: 
       objectReference: {fileID: 2132408580}
+    - target: {fileID: 1344635295834689041, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+        type: 3}
+      propertyPath: Guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344635295834689041, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+        type: 3}
+      propertyPath: Guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 1024354902}
+    - target: {fileID: 1344635295834689041, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+        type: 3}
+      propertyPath: Guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 1569057367}
     - target: {fileID: 1345053657502742631, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
         type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252282717979687473, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105667006255176819, guid: 1e8d7f6a47a174f418541fc3d34ce4a9,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e8d7f6a47a174f418541fc3d34ce4a9, type: 3}
